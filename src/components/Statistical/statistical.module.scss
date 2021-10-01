@@ -1,0 +1,23 @@
+.statistics {
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: azure;
+}
+
+.item {
+  width: calc(100%/5);
+}
+
+.statList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 20px;
+  padding: 20px 0 20px 0;
+}

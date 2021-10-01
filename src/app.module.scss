@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  justify-content:space-around;
+  list-style: none;
+}
+
+.menuListLink {
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.menuListLink__active {
+  color:red;
+}

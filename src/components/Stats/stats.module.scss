@@ -1,0 +1,20 @@
+.stats {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #282c34;
+  background-color: #61dafb;
+}
+.quantity {
+  display: block;
+}
+
+.statsList {
+  padding: 10px 0 10px 0;
+  &:not(:last-child) {
+    padding-right: 15px;
+    border-right: 1px solid #282c34;
+  }
+}
